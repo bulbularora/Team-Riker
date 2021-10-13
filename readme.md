@@ -15,3 +15,11 @@ This repository consists of the project files relating to Team Riker's Group Pro
 
 **Activity 1: Project Idea Selection and Introduction**
 - [**Vlog**](https://youtu.be/K0ZO_r178GQ)
+
+**Activity 2: Project Prerequisites/ Planning**
+- [**Business Case**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Business%20Case.docx.pdf)
+- [**Project Charter**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Project%20Charter.docx.pdf)
+- [**Project Roles and Responsibilities](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Project%20Roles%20and%20Responsibilities.docx.pdf)
+- [**Project Scope**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Project%20Scope%20Statement.docx.pdf)
+- [**Stakeholder register**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Stakeholder%20Register.docx.pdf)
+- [**Stakeholder Engagement Plan**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Stakeholder%20Engagement%20Plan.docx.pdf)
