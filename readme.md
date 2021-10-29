@@ -14,4 +14,4 @@ Team consists of Software Enginnering Students from the University of Regina
 This repository consists of the project files relating to Team Riker's Group Project.
 
 - [**Documents**](https://github.com/archishab/Team-Riker/tree/main/Project%20Prerequisites%20and%20Planning/Documentation)
-- [**Vlogs**] (https://www.youtube.com/playlist?list=PL8BedSY240vubMrNiGZVit0FEH2b96TPz)
+- [**Vlogs**](https://www.youtube.com/playlist?list=PL8BedSY240vubMrNiGZVit0FEH2b96TPz)
