@@ -19,7 +19,7 @@ This repository consists of the project files relating to Team Riker's Group Pro
 - [Documentation](https://github.com/archishab/Team-Riker/tree/main/Project%20Prerequisites%20and%20Planning/Documentation)
 
 **Project Design Architecture**
-- [**Prototypes**](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/Prototypes)
-- [**UML DIagrams**](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
-- [**MVC Diagram**](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
+- [Prototypes](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/Prototypes)
+- [UML DIagrams](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
+- [MVC Diagram](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
 
