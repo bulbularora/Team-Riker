@@ -13,5 +13,13 @@ Team consists of Software Enginnering Students from the University of Regina
 ### Content
 This repository consists of the project files relating to Team Riker's Group Project.
 
-- [**Documents**](https://github.com/archishab/Team-Riker/tree/main/Project%20Prerequisites%20and%20Planning/Documentation)
 - [**Vlogs**](https://www.youtube.com/playlist?list=PL8BedSY240vubMrNiGZVit0FEH2b96TPz)
+
+**Project Prerequisites and Planning**
+- [Documentation](https://github.com/archishab/Team-Riker/tree/main/Project%20Prerequisites%20and%20Planning/Documentation)
+
+**Project Design Architecture**
+- [**Prototypes**](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/Prototypes)
+- [**UML DIagrams**](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
+- [**MVC Diagram**](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
+
