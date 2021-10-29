@@ -13,13 +13,13 @@ Team consists of Software Enginnering Students from the University of Regina
 ### Content
 This repository consists of the project files relating to Team Riker's Group Project.
 
-**Activity 1: Project Idea Selection and Introduction**
-- [**Vlog**](https://youtu.be/K0ZO_r178GQ)
+- [Vlogs](https://www.youtube.com/playlist?list=PL8BedSY240vubMrNiGZVit0FEH2b96TPz)
 
-**Activity 2: Project Prerequisites/ Planning**
-- [**Business Case**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Business%20Case.docx.pdf)
-- [**Project Charter**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Project%20Charter.docx.pdf)
-- [**Project Roles and Responsibilities**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Project%20Roles%20and%20Responsibilities.docx.pdf)
-- [**Project Scope**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Project%20Scope%20Statement.docx.pdf)
-- [**Stakeholder register**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Stakeholder%20Register.docx.pdf)
-- [**Stakeholder Engagement Plan**](https://github.com/archishab/Team-Riker/blob/main/Project%20Prerequisites%20and%20Planning/Stakeholder%20Engagement%20Plan.docx.pdf)
+**Project Prerequisites and Planning**
+- [Documentation](https://github.com/archishab/Team-Riker/tree/main/Project%20Prerequisites%20and%20Planning/Documentation)
+
+**Project Design Architecture**
+- [Prototypes](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/Prototypes)
+- [UML DIagrams](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
+- [MVC Diagram](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
+
