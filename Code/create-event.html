@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <title>Document</title>
+</head>
+<body class = "text-center grid-container">
+<div class="header">
+    <h2 class="logo">Logo</h2>
+    <div>
+        <ul>
+            <li><a href="index.html">Log In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a class="active" href="create-event.html">Create Event</a></li>
+            <li><a href="kanban.html">Kanban</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="main">
+    <h2>Create an Event</h2>
+    <form action="/action_page.php">
+      <label for="title">Title</label><br>
+      <input type="text" name="title" id="title">
+      <br><br>
+      <label for="name">Course name</label><br>
+      <input type="text" name="name" id="coursename">
+      <br><br>
+      <label for="type">Type</label><br>
+        <select name="assignment-type" id="assignment-type">
+            <option value="assignment">Assignment</option>
+            <option value="test">Exam</option>
+            <option value="lab">Lab</option>
+        </select>
+      <br><br>
+      <label for="date">Due date</label><br>
+      <input type="date" name="date" id="date">
+       <br><br>
+        <label for="description">Description:</label>
+        <br>
+        <textarea type="text" name="message" id="text"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+
+</div>
+
+<div class="left">
+
+</div>
+<div class="right">
+
+</div>
+
+<div class="footer">
+
+  <p class="foot">
+    <i class="fas fa-carrot"></i>
+    RIKER SCHEDULING &copy 2021
+  </p>
+
+</div>
+</body>
+</html>
