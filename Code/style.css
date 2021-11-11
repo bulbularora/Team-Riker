@@ -1,0 +1,272 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: auto auto ;
+    background-color: #f5f5f5;
+    font-family: "Montserrat";
+    color: #454B1B	;
+    font-weight: bold;
+
+}
+.header{
+    font-size: 15px;
+    color: #454B1B	;
+
+    margin-bottom: 40px;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.div{
+    text-align: center;
+}
+
+.left{
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.right{
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.main{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    font-size: 13px;
+    min-height: calc(100vh - 166px - 15px - 121px); /* viewport height- header- footer- margin top and bottom */
+    margin: 0px 90px 0px 90px;
+
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:dimgrey ;
+    color: white;
+    margin-top: 80px;
+
+
+}
+
+
+input[type=text], input[type= password], select, textarea {
+    width: 20%;
+    padding: 7px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    padding: 6px 15px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.kanban-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kanban-heading-text {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.7rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+#todo {
+    background-color: beige;
+}
+
+#inprogress {
+    background-color: beige;
+}
+
+#done {
+    background-color: beige;
+}
+
+.kanban-block {
+    padding: 0.6rem;
+    width: 30.5%;
+    min-width: 14rem;
+    min-height: 4.5rem;
+    border-radius: 0.3rem;
+}
+
+.kanban-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.task {
+    background-color: white;
+    margin: 0.2rem 0rem 0.3rem 0rem;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.2rem 0.5rem 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgrey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+.foot{
+    margin-left: 40px;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.login-form{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+    background-color: #1abc9c;
+    text-align: center;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
