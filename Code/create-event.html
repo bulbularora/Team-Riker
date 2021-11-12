@@ -24,28 +24,39 @@
 
 <div class="main">
     <h2>Create an Event</h2>
-    <form action="/action_page.php">
+    <form class="create-event-form" action="/action_page.php">
+      <div class="float-left"  >
       <label for="title">Title</label><br>
-      <input type="text" name="title" id="title">
+      <input style="width: 100%" type="text" name="title" id="title">
       <br><br>
       <label for="name">Course name</label><br>
-      <input type="text" name="name" id="coursename">
+      <input style="width: 100%" type="text" name="name" id="coursename">
       <br><br>
       <label for="type">Type</label><br>
-        <select name="assignment-type" id="assignment-type">
+        <select class="left-half-inputs" name="assignment-type" id="assignment-type">
             <option value="assignment">Assignment</option>
             <option value="test">Exam</option>
             <option value="lab">Lab</option>
         </select>
       <br><br>
       <label for="date">Due date</label><br>
-      <input type="date" name="date" id="date">
+      <input class="left-half-inputs" type="date" name="date" id="due-date">
        <br><br>
+        <label for="time">Due Time</label><br>
+        <input class="left-half-inputs" type="time" name="date" id="due-time">
+        <br><br>
+
+      </div>
+        <div class="float-right">
         <label for="description">Description:</label>
         <br>
-        <textarea type="text" name="message" id="text"></textarea>
+        <textarea class="" rows="10" cols="75" style="width: 60%" type="text" name="message" id="text">Enter Description here....</textarea>
+        <br><br>
+        <label for="upload">Upload File(s)</label><br>
+        <input style="margin-left: 60px" type="file" name="due-file" id="due-file" >
         <br>
         <br>
+        </div>
         <input type="submit" value="Submit">
     </form>
     <br>
