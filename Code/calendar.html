@@ -1,43 +1,65 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <title>Calendar</title>
 </head>
-<body>
-    <div id="navbar" class="navbar">
-        <p>Logo</p>
-        <div id="navbar-pages"class="navbar-pages">
-            <p>Calendar Kanban *profilepicture*</p>
-        </div>
-        <hr />
+<body class="grid-container">
+<div class="header">
+    <h2 class="logo">RSA</h2>
+    <div>
+        <ul>
+            <li><a href="index.html">Log In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="create-event.html">Create Event</a></li>
+            <li><a href="kanban.html">Kanban</a></li>
+            <li><a class="active" href="calendar.html">Calendar</a></li>
+        </ul>
     </div>
+</div>
+<div class="main">
+<div id="calendar-view" class="calendar-view">
+    <p>*Month* < Today ></p>
+    <table>
+        <tr>
+            <th>SUN</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+</div>
+<div class="left">
 
-    <div id="calendar-view" class="calendar-view">
-        <p>*Month* < Today ></p>
-        <table>
-            <tr>
-                <th>SUN</th>
-                <th>MON</th>
-                <th>TUE</th>
-                <th>WED</th>
-                <th>THU</th>
-                <th>FRI</th>
-                <th>SAT</th>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+</div>
+<div class="right">
 
-    </div>
+</div>
+
+<div class="footer">
+
+    <p class="foot">
+        <i class="fas fa-carrot"></i>
+        RIKER SCHEDULING &copy 2021
+    </p>
+
+</div>
 </body>
 </html>
