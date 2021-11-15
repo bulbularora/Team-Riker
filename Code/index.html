@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script type="text/javascript" src="js/validate-forms.js"> </script>
   <title>Login - Riker Scheduling</title>
 </head>
 <body class="grid-container">
@@ -26,26 +27,25 @@
         <h2>Welcome to Riker Scheduling!</h2><br><h2>Log In</h2>
 
       <form id="login-form" class="login-form" method="post">
-        <label>Email</label><br>
-        <input type="text" name="email" id="uname">
+        <label>Email: </label>
+        <label id="msg_email" class="err_msg"></label><br />
+        <input type="text" name="email" id="email"><br />
         <br>
-        <br>
-        <label>Password </label><br>
-        <input type="text" name="password" id="pass">
-        <br>
+
+        <label>Password: </label>
+        <label id="msg_pswd" class="err_msg"></label><br />
+        <input type="password" name="password" id="pass"><br />
+
         <br>
         <input type="submit" value="Log In">
       </form>
-        <br><br>
+
+      <label id="display_info" class="err_msg"></label><br />
+      <br>
+      <br>
       <a href="signup.html">Don't have an account? Sign up here!</a>
     </div>
 
-    <div class="left">
-
-    </div>
-    <div class="right">
-
-    </div>
 
     <div class="footer">
 
@@ -56,6 +56,6 @@
 
     </div>
 
-
+    <script type="text/javascript" src="js/index-r.js"></script>
 </body>
 </html>

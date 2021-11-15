@@ -5,7 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="shortcut icon" href="">
+  <script type="text/javascript" src="js/validate-forms.js"> </script>
   <title>Create Event</title>
 </head>
 <body class = "text-center grid-container">
@@ -24,40 +26,51 @@
 
 <div class="main">
     <h2>Create an Event</h2>
-    <form class="create-event-form" action="/action_page.php">
-      <div class="float-left"  >
-      <label for="title">Title</label><br>
-      <input style="width: 100%" type="text" name="title" id="title">
-      <br><br>
-      <label for="name">Course name</label><br>
-      <input style="width: 100%" type="text" name="name" id="coursename">
-      <br><br>
-      <label for="type">Type</label><br>
-        <select class="left-half-inputs" name="assignment-type" id="assignment-type">
+    <br>
+    <form class="create-event-form" id="create-event-form" enctype=multipart/form-data method="post">
+      <div class="float-left" >
+        <label for="title">Title: </label>
+        <label id="msg_title" class="err_msg"></label><br>
+        <input style="width: 140%" type="text" name="title" id="title">
+        <br>
+
+        <label>Course name: </label>
+        <label id="msg_course" class="err_msg"></label><br>
+        <input style="width: 140%" type="text" name="name" id="coursename">
+        <br>
+
+        <label>Type: </label><br>
+        <select style="width: 140%" class="left-half-inputs" name="assignment-type" id="assignment-type">
             <option value="assignment">Assignment</option>
             <option value="test">Exam</option>
             <option value="lab">Lab</option>
         </select>
-      <br><br>
-      <label for="date">Due date</label><br>
-      <input class="left-half-inputs" type="date" name="date" id="due-date">
-       <br><br>
-        <label for="time">Due Time</label><br>
-        <input class="left-half-inputs" type="time" name="date" id="due-time">
         <br><br>
 
-      </div>
-        <div class="float-right">
-        <label for="description">Description:</label>
-        <br>
-        <textarea class="" rows="10" cols="75" style="width: 60%" type="text" name="message" id="text">Enter Description here....</textarea>
+        <label>Due date: </label>
+        <label id="msg_duedate" class="err_msg"></label><br>
+        <input style="width: 140%" class="left-half-inputs" type="date" name="date" id="due-date">
         <br><br>
-        <label for="upload">Upload File(s)</label><br>
-        <input style="margin-left: 60px" type="file" name="due-file" id="due-file" >
+
+        <label>Due Time: </label>
+        <label id="msg_duetime" class="err_msg"></label><br>
+        <input style="width: 140%" class="left-half-inputs" type="time" name="date" id="due-time">
+        <br><br>
+      </div>
+
+      <div class="float-right">
+        <label>Description: </label>
+        <label id="msg_description" class="err_msg"></label><br>
+        <textarea class="" cols="75" id="text" name="message" rows="10" style="width: 100%" type="text">Enter Description here....</textarea>
+        <br><br>
+
+        <label>Upload File(s): </label>
+        <label id="msg_upload" class="err_msg"></label><br>
+        <input type="file" name="due-file" id="due-file" >
         <br>
         <br>
-        </div>
-        <input type="submit" value="Submit">
+          <input type="submit" value="Add">
+      </div>
     </form>
     <br>
     <br>
@@ -65,10 +78,9 @@
 </div>
 
 <div class="left">
-
 </div>
-<div class="right">
 
+<div class="right">
 </div>
 
 <div class="footer">
@@ -79,5 +91,6 @@
   </p>
 
 </div>
+<script type="text/javascript" src="js/create-event-r.js"></script>
 </body>
 </html>
