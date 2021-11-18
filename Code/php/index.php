@@ -16,9 +16,6 @@ if (isset($_POST["submitted"]) && $_POST["submitted"])
     {
         die ("Connection failed: " . $db->connect_error);
     }
-
-    //add code here to select * from table User where email = '$email' AND password = '$password'
-    // start with $q = 
     
     $q = "SELECT * FROM user WHERE email = '$email' AND password = '$password'";
     $r = $db->query($q);
