@@ -15,6 +15,7 @@ CREATE TABLE events(
     due_date DATE,
     due_time TIME,
     description VARCHAR(300),
+    state VARCHAR(50),
     files VARCHAR(300),
     PRIMARY KEY(event_id),
     FOREIGN KEY (user_id) REFERENCES user(user_id)
