@@ -1,6 +1,8 @@
 <?php 
 include "db.php";
 
+session_start();
+
 $validate = true;
 $error = "";
 $title = "";
@@ -73,10 +75,7 @@ if (isset($_POST["submitted"]) && $_POST["submitted"])
 </head>
 <body class = "text-center grid-container">
 <div class="header">
-    <h2 class="logo">
-     <?php
-     session_start();
-     ?>    
+    <h2 class="logo">    
     RSA</h2>
     <div>
         <ul>
