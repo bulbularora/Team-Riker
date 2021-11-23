@@ -76,7 +76,7 @@ if (isset($_POST["submitted"]) && $_POST["submitted"])
 <body class = "text-center grid-container">
 <div class="header">
     <h2 class="logo">    
-    RSA</h2>
+    RSA</h2><span class="float-right-login">Logged in as: <?php echo $_SESSION["email"] ?> </span> <br>
     <div>
         <ul>
             <li><a href="index.php">Log In</a></li>
