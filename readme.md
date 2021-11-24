@@ -5,7 +5,7 @@
 Group Project done by University of Regina's Software Engineering Students for ENSE 374: Software Engineering Management class in the FALL 2021 semester. This project was assigned by Dr. Tim Maciag and is being completed under his supervision.
 
 ### Group Members
-Team consists of Software Enginnering Students from the University of Regina
+Team consists of Software Engineering Students from the University of Regina
 1. Archisha Bhattacharya
 2. Bulbul Arora
 3. Yixu Zhou
