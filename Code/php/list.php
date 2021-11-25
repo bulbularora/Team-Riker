@@ -3,33 +3,39 @@ include "db.php";
 
 session_start();
 
-if(!isset($_SESSION["username"])) {
+if(!isset($_SESSION["email"])) {
     header("Location: index.php");
     exit();
 } else {
-    $db = new mysqli($server, $username, $dbpassword, $dbname);
+    $db = new mysqli("localhost", "arora20b", "sherry", "arora20b");
     if ($db->connect_error) {
         die ("Connection failed: " . $db->connect_error);
     }
 
     $user_id = $_SESSION["user_id"];
 
-    $q1 = "SELECT * FROM Events WHERE user_id='$user_id' ORDER BY due_date, due_time ";
+    $q1 = "SELECT * FROM events WHERE user_id='$user_id' ORDER BY due_date, due_time ";
     $r1 = $db->query($q1);
 }
 
 if(isset($_SESSION["username"])){
-$values = array();
-$i=0;
+    $values = array();
+    $q = array();
+    $r = array();
+    $i=0;
     if (isset($_POST["submitted"]) && $_POST["submitted"]){
         if(!empty($_POST['state'])){
             foreach($_POST['state'] as $value){
-                    array_push($values, $value);
-                    $i++;
+                array_push($values, $value);
+                $temp_q= "SELECT * FROM events where state='$value'";
+                array_push($q, $temp_q);
+                $temp_r = $db->query($temp_q);
+                array_push($r, $temp_r);
+
             }
         }
 
-        $q2= "SELECT * FROM Events WHERE user_id = '$user_id' AND state = '$values[0]'";
+
     }
 
 }
@@ -83,31 +89,71 @@ $i=0;
 
 <div class="main">
     <h2>Events</h2>
-    <?php while($row = $r1->fetch_assoc()){ ?>
-        <div>
-            <button data-toggle="collapse" data-target =".content" class="collapsible">
-                <?= $row["title"] ?>, due on - <?= $row["due_date"]?>
-                <?php if ($row["state"] == 'done') {?>
-                    <span class="float-done"><?= $row["state"] ?></span>
-                <?php } else if ($row["state"] == 'inprogress') {?>
-                    <span class="float-inprogress"><?= $row["state"] ?></span>
-                <?php } else if ($row["state"] == 'todo') {?>
-                    <span class="float-todo"><?= $row["state"] ?></span>
-                <?php }?>
-            </button>
-            <div class="content">
-                <p>
-                    <span style="font-weight: bold">Course Name:</span>  <?= $row["course_name"] ?> <br><br>
-                    <span style="font-weight: bold">Type:</span>  <?= $row["type"] ?> <br><br>
-                    <span style="font-weight: bold">Description:</span>  <?= $row["description"] ?> <br><br>
-                    <span style="font-weight: bold">Time due:</span> <?= $row["due_time"] ?> <br>
-                </p>
-                <br>
 
+    <?php
+    if(isset($_POST["submitted"]) && $_POST["submitted"]){
+        for($x = 0; $x < $i; $x++){
+            $row = $r[$x]->fetch_assoc();
+            ?>
+            <div>
+                <button data-toggle="collapse" data-target =".content" class="collapsible">
+                    <?= $row["title"] ?>, due on - <?= $row["due_date"]?>
+                    <?php if ($row["state"] == 'done') {?>
+                        <span class="float-done"><?= $row["state"] ?></span>
+                    <?php } else if ($row["state"] == 'inprogress') {?>
+                        <span class="float-inprogress"><?= $row["state"] ?></span>
+                    <?php } else if ($row["state"] == 'todo') {?>
+                        <span class="float-todo"><?= $row["state"] ?></span>
+                    <?php }?>
+                </button>
+                <div class="content">
+                    <p>
+                        <span style="font-weight: bold">Course Name:</span>  <?= $row["course_name"] ?> <br><br>
+                        <span style="font-weight: bold">Type:</span>  <?= $row["type"] ?> <br><br>
+                        <span style="font-weight: bold">Description:</span>  <?= $row["description"] ?> <br><br>
+                        <span style="font-weight: bold">Time due:</span> <?= $row["due_time"] ?> <br>
+                    </p>
+                    <br>
+
+                </div>
+                <br>
             </div>
-            <br>
-        </div>
-    <?php } ?>
+
+
+            <?php
+        }
+    }
+    else{
+        ?>
+
+
+        <?php while($row = $r1->fetch_assoc()){ ?>
+            <div>
+                <button data-toggle="collapse" data-target =".content" class="collapsible">
+                    <?= $row["title"] ?>, due on - <?= $row["due_date"]?>
+                    <?php if ($row["state"] == 'done') {?>
+                        <span class="float-done"><?= $row["state"] ?></span>
+                    <?php } else if ($row["state"] == 'inprogress') {?>
+                        <span class="float-inprogress"><?= $row["state"] ?></span>
+                    <?php } else if ($row["state"] == 'todo') {?>
+                        <span class="float-todo"><?= $row["state"] ?></span>
+                    <?php }?>
+                </button>
+                <div class="content">
+                    <p>
+                        <span style="font-weight: bold">Course Name:</span>  <?= $row["course_name"] ?> <br><br>
+                        <span style="font-weight: bold">Type:</span>  <?= $row["type"] ?> <br><br>
+                        <span style="font-weight: bold">Description:</span>  <?= $row["description"] ?> <br><br>
+                        <span style="font-weight: bold">Time due:</span> <?= $row["due_time"] ?> <br>
+                    </p>
+                    <br>
+
+                </div>
+                <br>
+            </div>
+        <?php }
+    }
+    ?>
 </div>
 
 <div class="left border-right">
@@ -136,3 +182,4 @@ $i=0;
 <script type="text/javascript" src="js/list.js"> </script>
 </body>
 </html>
+
