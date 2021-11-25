@@ -1,7 +1,7 @@
 # ENSE 374 Group Project
 ## Team Riker
 
-### Decription
+### Description
 Group Project done by University of Regina's Software Engineering Students for ENSE 374: Software Engineering Management class in the FALL 2021 semester. This project was assigned by Dr. Tim Maciag and is being completed under his supervision.
 
 ### Group Members
