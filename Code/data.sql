@@ -1,12 +1,12 @@
-CREATE TABLE user(
+CREATE TABLE User(
     user_id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(30) NOT NULL,
+    username VARCHAR(30) NOT NULL,
     email VARCHAR(30) NOT NULL,
-    password VARCHAR(30) NOT NULL,
+    password VARCHAR(10) NOT NULL,
     PRIMARY KEY (user_id)
 );
 
-CREATE TABLE events(
+CREATE TABLE Events(
     user_id INT,
     event_id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(30) not null,
@@ -14,10 +14,9 @@ CREATE TABLE events(
     type VARCHAR(30) not null,
     due_date DATE,
     due_time TIME,
-    description VARCHAR(300),
+    description VARCHAR(500),
     state VARCHAR(50),
-    files VARCHAR(300),
     PRIMARY KEY(event_id),
-    FOREIGN KEY (user_id) REFERENCES user(user_id)
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
 );
 
