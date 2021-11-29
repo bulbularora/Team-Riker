@@ -7,7 +7,7 @@ if(!isset($_SESSION["email"])) {
     header("Location: index.php");
     exit();
 } else {
-    $db = new mysqli("localhost", "arora20b", "sherry", "arora20b");
+    $db = new mysqli("localhost", "arora20b", "", "arora20b");
     if ($db->connect_error) {
         die ("Connection failed: " . $db->connect_error);
     }
