@@ -1,4 +1,11 @@
-# Using XAMPP (localhost)
+# Deploying the App
+
+Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
+
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/archishab/Team-Riker/tree/main/Riker%20Scheduling%20App%20(Final%20Product)/MVP%20code)
+
+# Installation Requirements and Instructions
+## Using XAMPP (localhost)
 **Recommended OS: Windows, MacOS, Linux**
 
 1. Download the appropiate XAMPP installer for your OS from: https://www.apachefriends.org/download.html
