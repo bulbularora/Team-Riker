@@ -30,6 +30,18 @@ Note: There might be a index.php file already present in the folder. Please dele
 7. Enter the following query to make the 'Event' database (also included in the event.sql(**enter link**) file and click on 'Go'
 
     **enter query**
+8. Enter the following query to make the 'Type' database (also included in the type.sql(**enter link**) file and click on 'Go'
+
+    **enter query**
+10. Enter the following query to add rows to the 'Type' database and click on 'Go'
+
+    **enter query**
+11. Enter the following query to make the 'State' database (also included in the type.sql(**enter link**) file and click on 'Go'
+
+    **enter query**
+12. Enter the following query to add rows to the 'State' database and click on 'Go'
+
+    **enter query**
 
 
 The site is now fully functional
