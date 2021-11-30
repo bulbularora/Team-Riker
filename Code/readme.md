@@ -6,6 +6,7 @@
 3. Download all the files in the code directory to your device and move them to the the following folder
 	- **On MacOS:** /Applications/XAMPP/xamppfiles/htdocs
 	- **On Windows:**  C:\xampp\htdocs
+
 Note: There might be a index.php file already present in the folder. Please delete or rename that file before transferring the downloaded files
 
 4. Visit http://localhost/html/index.php on your preferred browser
