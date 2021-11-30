@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: Team-Riker/Riker Scheduling App (Final Product)/MVP code
+    repo: Riker-Scheduling-App/MVP-code
   name: Riker-app
