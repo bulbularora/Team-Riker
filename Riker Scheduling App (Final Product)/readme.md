@@ -1,4 +1,5 @@
-# Using XAMPP (localhost)
+# Installation requirements and Instructions
+## Using XAMPP (localhost)
 **Recommended OS: Windows, MacOS, Linux**
 
 1. Download the appropiate XAMPP installer for your OS from: https://www.apachefriends.org/download.html
