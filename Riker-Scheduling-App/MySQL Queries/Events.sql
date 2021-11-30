@@ -1,4 +1,4 @@
-CREATE TABLE `Events` (
+CREATE TABLE `events` (
  `user_id` int DEFAULT NULL,
  `event_id` int NOT NULL AUTO_INCREMENT,
  `title` varchar(30) NOT NULL,
