@@ -1,4 +1,4 @@
-# Installation requirements and Instructions
+# Installation Requirements and Instructions
 ## Using XAMPP (localhost)
 **Recommended OS: Windows, MacOS, Linux**
 
