@@ -4,5 +4,5 @@ spec:
   - environment_slug: php
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-php.git
+      repo_clone_url: https://github.com/archishab/Team-Riker/tree/main/Riker%20Scheduling%20App%20(Final%20Product)/MVP%20code
     name: sample-php
