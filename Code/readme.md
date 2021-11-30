@@ -8,7 +8,7 @@
 	- **On Windows:**  C:\xampp\htdocs
 Note: There might be a index.php file already present in the folder. Please delete or rename that file before transferring the downloaded files
 
-4. Visit (http://localhost/html/index.php) on your preferred browser
+4. Visit http://localhost/html/index.php on your preferred browser
 
 ### Create Database
 1. On a new tab visit http://localhost/phpmyadmin
