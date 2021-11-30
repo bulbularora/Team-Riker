@@ -1,4 +1,4 @@
-#Using XAMPP (localhost)
+# Using XAMPP (localhost)
 **Recommended OS: Windows, MacOS, Linux**
 
 1. Download the appropiate XAMPP installer for your OS from: https://www.apachefriends.org/download.html
@@ -10,7 +10,7 @@ Note: There might be a index.php file already present in the folder. Please dele
 
 4. Visit http://localhost/html/index.php on your preferred browser
 
-###Create Database
+### Create Database
 1. On a new tab visit http://localhost/phpmyadmin
 2. Click on 'New' from the right hand side pane to make a new database
 3. Name the database 'Riker'
