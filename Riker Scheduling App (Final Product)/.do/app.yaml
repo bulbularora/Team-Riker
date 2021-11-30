@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-php
+    repo: Team-Riker/Riker Scheduling App (Final Product)/MVP code
   name: sample-php
