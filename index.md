@@ -1,40 +1,24 @@
+# ENSE 374 Group Project
+## Team Riker
 
-## Welcome to GitHub Pages
+### Description
+Group Project done by University of Regina's Software Engineering Students for ENSE 374: Software Engineering Management class in the FALL 2021 semester. This project was assigned by Dr. Tim Maciag and is being completed under his supervision.
 
-You can use the [editor on GitHub](https://github.com/archishab/Team-Riker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Group Members
+Team consists of Software Engineering Students from the University of Regina
+1. Archisha Bhattacharya
+2. Bulbul Arora
+3. Yixu Zhou
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Content
+This repository consists of the project files relating to Team Riker's Group Project.
 
-### Markdown
+- [Vlogs](https://www.youtube.com/playlist?list=PL8BedSY240vubMrNiGZVit0FEH2b96TPz)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Project Prerequisites and Planning**
+- [Documentation](https://github.com/archishab/Team-Riker/tree/main/Project%20Prerequisites%20and%20Planning/Documentation)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-![Image](calendar.png)
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/archishab/Team-Riker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Project Design Architecture**
+- [Prototypes](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/Prototypes)
+- [UML DIagrams](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
+- [MVC Diagram](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
