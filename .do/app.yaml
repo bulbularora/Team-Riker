@@ -1,8 +1,0 @@
-name: iker-app
-services:
-- environment_slug: php
-  github:
-    branch: main
-    deploy_on_push: true
-    repo: Riker-Scheduling-App/MVP-code
-  name: Riker-app

@@ -1,8 +1,0 @@
-spec:
-  name: Riker
-  services:
-  - environment_slug: php
-    git:
-      branch: main
-      repo_clone_url: https://github.com/archishab/Team-Riker/tree/main/Riker-Scheduling-App/MVP-code
-    name: Riker-app
