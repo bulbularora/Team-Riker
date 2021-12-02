@@ -3,29 +3,24 @@
 **Recommended OS: Windows, MacOS, Linux**
 
 
-1. Type in the following command in your terminal to download the files from the repository in your device
+1. Type in the following command in your terminal to download the files from the repository to your device
 ```
 git clone https://github.com/archishab/Team-Riker
 ```
-
-2. Download the appropiate XAMPP installer for your OS from 
-```
-https://www.apachefriends.org/download.html
-```
+2. Download the appropiate XAMPP installer for your OS from: [XAMPP](https://www.apachefriends.org/download.html)
 4. Once downloaded and installed, open XAMPP and start "Apache" and "MySQL"
-5. Download all the files in the code directory to your device and move them to the the following folder
-    - **On MacOS:** ```/Applications/XAMPP/xamppfiles/htdocs```
-    - **On Windows:**  ```C:\xampp\htdocs```
+5. Navigate to `Team-Riker/Riker-Scheduling-App/MVP-code` in the repository folder you downloaded on your device.
+6. Move all the files in the **'MVP-code'** directory to the the following folder
+    - **On MacOS:** `/Applications/XAMPP/xamppfiles/htdocs`
+    - **On Windows:**  `C:\xampp\htdocs`
 
-Note: There might be a index.php file already present in the folder. Please delete or rename that file before transferring the downloaded files
+🔴 Note: There might be a index.php file already present in the folder. Please delete or rename that file before transferring the downloaded files
 
-4. Open the following link in your preferred browser 
-```
-http://localhost/html/index.php
-```
+6. Open the following link in your preferred browser: 
+    - http://localhost/index.php
 
 ### Create Database
-1. On a new tab visit ```http://localhost/phpmyadmin```
+1. On a new tab visit `http://localhost/phpmyadmin`
 2. Click on 'New' from the right hand side pane to make a new database
 3. Name the database 'Riker'
 4. Select Riker from the list of databases on right hand side pane
