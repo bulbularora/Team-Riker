@@ -8,10 +8,7 @@
 git clone https://github.com/archishab/Team-Riker
 ```
 
-2. Download the appropiate XAMPP installer for your OS from 
-```
-https://www.apachefriends.org/download.html
-```
+2. Download the appropiate XAMPP installer for your OS from ```https://www.apachefriends.org/download.html```
 3. Once downloaded and installed, open XAMPP and start "Apache" and "MySQL"
 4. Download all the files in the code directory to your device and move them to the the following folder
     - **On MacOS:** ```/Applications/XAMPP/xamppfiles/htdocs```
