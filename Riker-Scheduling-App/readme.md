@@ -19,7 +19,7 @@ git clone https://github.com/archishab/Team-Riker
 6. Open the following link in your preferred browser: 
     - http://localhost/index.php
 
-### Create Database
+### Creating the required database
 1. On a new tab visit `http://localhost/phpmyadmin`
 2. Click on **'New'** from the right hand side pane to make a new database.
 3. Name the database **'Riker'**.
@@ -27,7 +27,7 @@ git clone https://github.com/archishab/Team-Riker
 
 4. Select **'Riker'** from the list of databases on right hand side pane.
 5. Click on **'SQL'** from the top menu.
-6. Enter the following query to make the 'User' database (also included in the data.sql(**enter link**) file and click on 'Go'
+6. Enter the following query to make the 'User' database (also included in [user.sql](**enter link**) file) and click on 'Go'
 ```
 CREATE TABLE `user` (
  `user_id` int NOT NULL AUTO_INCREMENT,
@@ -37,22 +37,51 @@ CREATE TABLE `user` (
  PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4
 ```
-7. Enter the following query to make the 'Event' database (also included in the event.sql(**enter link**) file and click on 'Go'
-
-    **enter query**
-8. Enter the following query to make the 'Type' database (also included in the type.sql(**enter link**) file and click on 'Go'
-
-    **enter query**
+7. Enter the following query to make the 'Events' database (also included in the [events.sql](**enter link**) file) and click on 'Go'
+```
+CREATE TABLE `events` (
+ `user_id` int DEFAULT NULL,
+ `event_id` int NOT NULL AUTO_INCREMENT,
+ `title` varchar(30) NOT NULL,
+ `course_name` varchar(30) NOT NULL,
+ `type` varchar(30) NOT NULL,
+ `due_date` date DEFAULT NULL,
+ `due_time` time DEFAULT NULL,
+ `description` varchar(500) DEFAULT NULL,
+ `state` varchar(50) DEFAULT NULL,
+ PRIMARY KEY (`event_id`),
+ KEY `user_id` (`user_id`),
+ CONSTRAINT `Events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `User` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4
+```
+8. Enter the following query to make the 'Type' database (also included in the [type.sql](**enter link**) file) and click on 'Go'
+```
+CREATE TABLE `Type` (
+ `type_id` int NOT NULL,
+ `name` varchar(15) NOT NULL,
+ `types` varchar(15) NOT NULL,
+ PRIMARY KEY (`type_id`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+```
 10. Enter the following query to add rows to the 'Type' database and click on 'Go'
-
-    **enter query**
-11. Enter the following query to make the 'State' database (also included in the type.sql(**enter link**) file and click on 'Go'
-
-    **enter query**
+```
+INSERT INTO `Type` (`type_id`, `name`, `types`) VALUES ('1', 'Assignment', 'assignment'), ('2', 'Lab', 'lab'), ('3', 'Exam', 'exam') 
+```
+11. Enter the following query to make the 'State' database (also included in the [type.sql](**enter link**) file) and click on 'Go'
+```
+CREATE TABLE `state` (
+ `state_id` int NOT NULL,
+ `name` varchar(15) NOT NULL,
+ `states` varchar(15) NOT NULL,
+ PRIMARY KEY (`state_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+```
 12. Enter the following query to add rows to the 'State' database and click on 'Go'
+```
+INSERT INTO `State` (`state_id`, `name`, `states`) VALUES ('1', 'To-Do', 'todo'), ('2', 'In Progress', 'inprogress'), ('3', 'Done', 'done') 
+```
 
-    **enter query**
 
 ![Make Tables](https://github.com/archishab/Team-Riker/blob/gh-pages/images/Make_Tables.png)
 
-The site is now fully functional
+The site is now fully functional!
