@@ -8,15 +8,21 @@
 git clone https://github.com/archishab/Team-Riker
 ```
 
-2. Download the appropiate XAMPP installer for your OS from ```https://www.apachefriends.org/download.html```
-3. Once downloaded and installed, open XAMPP and start "Apache" and "MySQL"
-4. Download all the files in the code directory to your device and move them to the the following folder
+2. Download the appropiate XAMPP installer for your OS from 
+```
+https://www.apachefriends.org/download.html
+```
+4. Once downloaded and installed, open XAMPP and start "Apache" and "MySQL"
+5. Download all the files in the code directory to your device and move them to the the following folder
     - **On MacOS:** ```/Applications/XAMPP/xamppfiles/htdocs```
     - **On Windows:**  ```C:\xampp\htdocs```
 
 Note: There might be a index.php file already present in the folder. Please delete or rename that file before transferring the downloaded files
 
-4. Open the following link in your preferred browser ```http://localhost/html/index.php```
+4. Open the following link in your preferred browser 
+```
+http://localhost/html/index.php
+```
 
 ### Create Database
 1. On a new tab visit ```http://localhost/phpmyadmin```
