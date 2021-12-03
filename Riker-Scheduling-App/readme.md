@@ -63,11 +63,11 @@ CREATE TABLE `Type` (
  PRIMARY KEY (`type_id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
 ```
-10. Enter the following query to add rows to the 'Type' database and click on 'Go'
+9. Enter the following query to add rows to the 'Type' database and click on 'Go'
 ```
 INSERT INTO `Type` (`type_id`, `name`, `types`) VALUES ('1', 'Assignment', 'assignment'), ('2', 'Lab', 'lab'), ('3', 'Exam', 'exam') 
 ```
-11. Enter the following query to make the 'State' database (also included in the [type.sql](**enter link**) file) and click on 'Go'
+10. Enter the following query to make the 'State' database (also included in the [type.sql](**enter link**) file) and click on 'Go'
 ```
 CREATE TABLE `state` (
  `state_id` int NOT NULL,
@@ -76,7 +76,7 @@ CREATE TABLE `state` (
  PRIMARY KEY (`state_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
 ```
-12. Enter the following query to add rows to the 'State' database and click on 'Go'
+11. Enter the following query to add rows to the 'State' database and click on 'Go'
 ```
 INSERT INTO `State` (`state_id`, `name`, `states`) VALUES ('1', 'To-Do', 'todo'), ('2', 'In Progress', 'inprogress'), ('3', 'Done', 'done') 
 ```
