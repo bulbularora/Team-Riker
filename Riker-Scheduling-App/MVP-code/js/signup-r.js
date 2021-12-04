@@ -1,1 +1,0 @@
-document.getElementById("signup-form").addEventListener("submit", SignUpForm, false);
