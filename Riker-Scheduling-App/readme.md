@@ -27,7 +27,7 @@ git clone https://github.com/archishab/Team-Riker
 
 4. Select **'Riker'** from the list of databases on right hand side pane.
 5. Click on **'SQL'** from the top menu.
-6. Enter the following query to make the 'User' database (also included in [user.sql](**enter link**) file) and click on 'Go'
+6. Enter the following query to make the 'User' database (also included in [user.sql](https://github.com/archishab/Team-Riker/blob/main/Riker-Scheduling-App/MySQL%20Queries/user.sql) file) and click on 'Go'
 ```
 CREATE TABLE `user` (
  `user_id` int NOT NULL AUTO_INCREMENT,
@@ -37,7 +37,7 @@ CREATE TABLE `user` (
  PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4
 ```
-7. Enter the following query to make the 'Events' database (also included in the [events.sql](**enter link**) file) and click on 'Go'
+7. Enter the following query to make the 'Events' database (also included in the [events.sql](https://github.com/archishab/Team-Riker/blob/main/Riker-Scheduling-App/MySQL%20Queries/events.sql) file) and click on 'Go'
 ```
 CREATE TABLE `events` (
  `user_id` int DEFAULT NULL,
@@ -54,7 +54,7 @@ CREATE TABLE `events` (
  CONSTRAINT `Events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `User` (`user_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4
 ```
-8. Enter the following query to make the 'Type' database (also included in the [type.sql](**enter link**) file) and click on 'Go'
+8. Enter the following query to make the 'Type' database (also included in the [type.sql](https://github.com/archishab/Team-Riker/edit/main/Riker-Scheduling-App/MySQL%20Queries/Type.sql) file) and click on 'Go'
 ```
 CREATE TABLE `Type` (
  `type_id` int NOT NULL,
@@ -67,7 +67,7 @@ CREATE TABLE `Type` (
 ```
 INSERT INTO `Type` (`type_id`, `name`, `types`) VALUES ('1', 'Assignment', 'assignment'), ('2', 'Lab', 'lab'), ('3', 'Exam', 'exam') 
 ```
-10. Enter the following query to make the 'State' database (also included in the [type.sql](**enter link**) file) and click on 'Go'
+10. Enter the following query to make the 'State' database (also included in the [type.sql](https://github.com/archishab/Team-Riker/blob/main/Riker-Scheduling-App/MySQL%20Queries/type.sql) file) and click on 'Go'
 ```
 CREATE TABLE `state` (
  `state_id` int NOT NULL,
