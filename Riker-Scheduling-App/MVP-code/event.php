@@ -8,7 +8,7 @@
         $error = "";
         $title = "";
 
-        include "db.php";
+        include "php/db.php";
         $db = new mysqli($server, $username, $dbpassword, $dbname);
         if ($db->connect_error)
         {
