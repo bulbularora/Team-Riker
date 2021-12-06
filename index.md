@@ -23,9 +23,9 @@ This repository consists of the project files relating to Team Riker's Group Pro
 - [UML DIagrams](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
 - [MVC Diagram](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
 
-# Installation Requirements and Instructions
-## Using XAMPP (localhost)
-**Recommended OS: Windows, MacOS, Linux**
+## Installation Requirements and Instructions
+**Using XAMPP (localhost)**
+> **Recommended OS: Windows, MacOS, Linux**
 
 
 1. Type in the following command in your terminal to download the files from the repository to your device
