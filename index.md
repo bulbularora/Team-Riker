@@ -48,7 +48,7 @@ git clone https://github.com/archishab/Team-Riker
 1. On a new tab visit `http://localhost/phpmyadmin`
 2. Click on **'New'** from the right hand side pane to make a new database.
 3. Name the database **'Riker'**.
-![Make DB](https://github.com/archishab/Team-Riker/blob/gh-pages/images/New_DB.png)
+![Make DB](images/Make_Tables.png)
 
 4. Select **'Riker'** from the list of databases on right hand side pane.
 5. Click on **'SQL'** from the top menu.
