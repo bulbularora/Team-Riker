@@ -23,6 +23,10 @@ This repository consists of the project files relating to Team Riker's Group Pro
 - [UML DIagrams](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
 - [MVC Diagram](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
 
+**Final Project Deliverables**
+- [MVP Code](https://github.com/archishab/Team-Riker/tree/main/Riker-Scheduling-App/MVP-code)
+- [Final Report](https://github.com/archishab/Team-Riker/blob/main/04.%20Project%20Storytelling%20%26%20Live%20Zoom%20Demo:Presentation/Final%20Project%20Report.pdf)
+
 ## Installation Requirements and Instructions
 **Using XAMPP (localhost)**
 > **Recommended OS: Windows, MacOS, Linux**
@@ -50,7 +54,7 @@ git clone https://github.com/archishab/Team-Riker
 3. Name the database **'Riker'**.
 
 
-![See reference image for step 2 - 3](https://github.com/archishab/Team-Riker/blob/gh-pages/images/New_DB.png)
+![Image](images/New_DB.png)
 
 4. Select **'Riker'** from the list of databases on right hand side pane.
 5. Click on **'SQL'** from the top menu.
@@ -111,6 +115,6 @@ INSERT INTO `State` (`state_id`, `name`, `states`) VALUES ('1', 'To-Do', 'todo')
 
 
 
-![See reference image for step 6 - 11](https://github.com/archishab/Team-Riker/blob/gh-pages/images/Make_Tables.png)
+![Image](images/Make_Tables.png)
 
 The site is now fully functional!
