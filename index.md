@@ -50,7 +50,7 @@ git clone https://github.com/archishab/Team-Riker
 3. Name the database **'Riker'**.
 
 
-![Make DB](images/Make_Tables.png)
+[See reference image for step 2 - 3](https://github.com/archishab/Team-Riker/blob/gh-pages/images/New_DB.png)
 
 4. Select **'Riker'** from the list of databases on right hand side pane.
 5. Click on **'SQL'** from the top menu.
@@ -111,6 +111,6 @@ INSERT INTO `State` (`state_id`, `name`, `states`) VALUES ('1', 'To-Do', 'todo')
 
 
 
-![Make Tables](https://github.com/archishab/Team-Riker/blob/gh-pages/images/Make_Tables.png)
+[See reference image for step 6 - 11](https://github.com/archishab/Team-Riker/blob/gh-pages/images/Make_Tables.png)
 
 The site is now fully functional!
