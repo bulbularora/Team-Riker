@@ -23,7 +23,7 @@ This repository consists of the project files relating to Team Riker's Group Pro
 - [UML DIagrams](https://github.com/archishab/Team-Riker/tree/main/Project%20Design%20Architecture/UML%20Diagrams)
 - [MVC Diagram](https://github.com/archishab/Team-Riker/blob/main/Project%20Design%20Architecture/MVC%20Architecture%20Diagram.pdf)
 
-**Final Project Deliverable**
+**Final Project Deliverables**
 - [MVP COde](https://github.com/archishab/Team-Riker/tree/main/Riker-Scheduling-App/MVP-code)
 - [Final Report]()
 
