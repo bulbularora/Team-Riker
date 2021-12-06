@@ -48,6 +48,8 @@ git clone https://github.com/archishab/Team-Riker
 1. On a new tab visit `http://localhost/phpmyadmin`
 2. Click on **'New'** from the right hand side pane to make a new database.
 3. Name the database **'Riker'**.
+
+
 ![Make DB](images/Make_Tables.png)
 
 4. Select **'Riker'** from the list of databases on right hand side pane.
@@ -105,6 +107,8 @@ CREATE TABLE `state` (
 ```
 INSERT INTO `State` (`state_id`, `name`, `states`) VALUES ('1', 'To-Do', 'todo'), ('2', 'In Progress', 'inprogress'), ('3', 'Done', 'done') 
 ```
+
+
 
 
 ![Make Tables](https://github.com/archishab/Team-Riker/blob/gh-pages/images/Make_Tables.png)
