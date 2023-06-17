@@ -1,4 +1,4 @@
-# ENSE 374 Group Project
+# ENSE 374 Group Project - Riker Scheduling App
 ## Team Riker
 
 ### Description
